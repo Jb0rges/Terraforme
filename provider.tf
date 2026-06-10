@@ -4,7 +4,7 @@ terraform {
   # Providers necessários para o projeto
   required_providers {
 
-    aws {
+    aws = {
 
       # Provider oficial da AWS
       source = "hashicorp/aws"
