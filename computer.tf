@@ -7,7 +7,7 @@ resource "aws_launch_template" "web" {
   name_prefix = "web"
 
   # Substituir por uma AMI válida
-  image_id = "us-east-1"
+  image_id = "ami-xxxxxxxxxxxxxxxxx"
 
   instance_type = "t2.micro"
 
